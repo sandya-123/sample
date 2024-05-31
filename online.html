@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8 "/>
+        <title> styles</title>
+        <style>
+            .a{
+                td{
+                    background-color: blueviolet;
+                    
+                    display: flexbox;
+
+                }
+            
+            }
+            input[type="submit"]{
+                float: right;
+                width: 20rem;
+                margin: auto;
+                padding: 8px 8px;
+            }
+        </style>
+    </head>
+        <body style="background-color:#dc80dc;">
+            <th>data</th>
+<form>
+    <h2 style="background-color:blue;"><center>Personal details</center></h2>
+    <label for="" >colors</label>
+    <input type="color">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text"></td>
+            <td>Last name</td>
+            <td><input type="text"></td>
+           <br>
+        </tr>
+            <tr>
+            <td>Father Name</td>
+            <td><input type="text"></td>
+            <td>Mother Name</td>
+            <td><input type="text"></td>
+            </tr>
+        
+        <tr>
+            <td>Address</td>
+            <td><textarea id="Address" cols="25" rows="5"></textarea></td>
+            <td>Permanent Address</td>
+            <td><textarea id="Permanent Address" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+           <td>Personal No</td> 
+           <td>
+            <input type ="number">
+           </td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td>
+                <input type="datetime-local">
+            </td>
+            <td>Place of Birth</td>
+            <td><input type ="text"></td>
+        </tr>
+        <tr>
+            <td>Select Gender</td>
+            <td><input type="radio" name="Gender" value="Trans"> Trans</td>
+            <td><input type="radio" name="Gender" value="female">Female</td>
+            <td><input type="radio" name="Gender" value="Male">Male</td>
+        </tr>
+        <tr>
+            <td>Year of PassedOut</td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td>Nationality </td>
+            <td>
+                <select >
+                    <option >India</option>
+                    <option >USA</option>
+                    <option >pakisthan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                AAdhar Card
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+
+
+    </table>
+    <h2 style="background-color:pink;"><center>Educational details</center></h2>
+    <table>
+    <tr>
+        <td>school name</td>
+        <td><input type="text"></td>
+        <td>10th YOP</td>
+       
+        <td>
+            <select>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+       
+        </td>
+
+</tr>
+    <tr>
+        <td>10th marks</td>
+        <td><input type="text"></td>
+    <td>Hall ticket Number</td>
+    <td><input type="text"></td>
+</tr><br>
+    <tr>
+        <td>inter marks</td>
+    <td><input type="text"></td>
+        <td>inter YOP</td>
+        <td>
+            <select>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </select>
+        </td>
+       
+        
+    </tr><br>
+    <tr>
+    <td>Board</td>
+    <td><input type="text"></td>
+    <td>Hall ticket number</td>
+    <td><input type="text"></td>
+</tr>
+</table>
+<h2 style="background-color:yellowgreen;">Highest Qualification details</h2>
+    <table>
+    
+            <h4>Graduation</h4>
+            
+           <tr>
+            <td>Qualification</td>
+                 <td>
+                    
+                <select>
+                    <option>Btech</option>
+                    <option>Degree</option>
+                    <option>MBA</option>
+                    <option>Mtech</option>
+                </select>
+            </td>
+           </tr>
+
+        
+            <tr>
+                
+                <td>Branch</td>
+                <td><input type="text"></td>
+                <td>University</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>year of passing</td>
+                <td>
+                    <select>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select>
+               
+                </td>
+                <td>college name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                
+                <td>Hall ticket Number</td>
+                <td><input type="text"></td>
+                <td>District</td>
+                <td>
+                    
+                    <select>
+                        <option>Prakasam</option>
+                        <option>Guntur</option>
+                        <option>Vijayawada</option>
+                        <option>kadapa</option>
+                        <option>Nellore</option>
+                        <option>Addanki</option>
+                    </select>
+               
+                </td>
+            </tr>
+            <tr>
+                <td>specialiazation</td>
+                <td>
+                    <select>
+                        <option>CSE</option>
+                        <option>ECE</option>
+                        <option>EEE</option>
+                        <option>CIVIL</option>
+                        <option>MECH</option>
+                        <option>IT</option>
+                    </select>
+               
+                </td>
+
+                <td>Percentage</td>
+                <td><input type="number"></td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <div class="a">
+                <td>  <input type="submit" value="submit"> </td>  
+                <td>  
+                      <input type="submit"value="cancel">
+                </td>
+            </div>
+            </tr>
+            </table>
+
+
+    
+</form>
+    
+    
+</body>
+       <!----- <h1>welcome to css</h1>----->
+
+</html>
